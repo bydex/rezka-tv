@@ -1,0 +1,9 @@
+# Build output: the signed package embeds the certificate owner's details
+build/
+*.wgt
+
+# Tizen certificates and signing artifacts
+*.p12
+author-signature.xml
+signature*.xml
+.sign/
